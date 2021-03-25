@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body id="contact">
+    <div class="transparency-box">
+        <header>
+            <ul class="nav-bar">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="about.html">Realizations</a></li>
+                <li><a href="contact.html">Contact </a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="contact">
+                <h1>Contact</h2>
+                <form id="contact-form" action="#" method="GET">
+                    <label for="name" class="label">Name</label>
+                    <input type="text" id="name" class="custom-input" name="name" placeholder="Enter your name">
+
+                    <label for="email" class="label">E-mail</label>
+                    <input type="email" id="email" class="custom-input" name="email" placeholder="Give your email">
+
+                    <label for="message" class="label">Message</label>
+                    <textarea id="message" class="custom-input" name="message" placeholder="Write your message"></textarea>
+
+                    <input id="btn-send" value="Send" class="custom-button" type="submit" disabled="disabled" onclick="validInputs();">
+                </form>
+            </div>
+            <div class="address-and-map">
+                <div class="address">
+                    <h3>Krzysztof Smaga</h3>
+                    <p>Porąbka 69<br>
+                    34-642 Dobra</p>
+                    <p>Phone number:<br>
+                    +48 788 804 047</p>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1141.255409050082!2d19.960807823100367!3d50.04824147469202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b489abcda1b%3A0xd9258f5c752a2a5e!2sCodecool%20Krakow!5e0!3m2!1sen!2spl!4v1616507860030!5m2!1sen!2spl"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="copyright">Copyright © 2021 Krzysztof Smaga</div>
+        </footer>
+    </div>
+    <script src="../scripts/validForm.js"></script>
+</body>
+</html>
